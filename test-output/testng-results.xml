@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Organization Created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Organization Created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Organization Deleted Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Contacts link Clicked]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-15T21:24:49 IST" name="Suite" finished-at="2023-05-15T21:26:07 IST" duration-ms="78301">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateNew_Contact_Test.Tc_001_CreateConact()[pri:1, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" name="Tc_001_CreateConact" class="Contacts_Tests.CreateNew_Contact_Test"/>
+        <method signature="CreateNew_Contact_Test.Tc_002_CreateContact_with_Organization()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" name="Tc_002_CreateContact_with_Organization" class="Contacts_Tests.CreateNew_Contact_Test"/>
+        <method signature="CreateNew_Organization_Tests.Tc_003_CreateOrganization()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" name="Tc_003_CreateOrganization" class="Organization_Tests.CreateNew_Organization_Tests"/>
+        <method signature="CreateNew_Organization_Tests.Tc_004_DeleteOrganization()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" name="Tc_004_DeleteOrganization" class="Organization_Tests.CreateNew_Organization_Tests"/>
+      </group> <!-- RegressionSuite -->
+    </groups>
+    <test started-at="2023-05-15T21:24:49 IST" name="Test" finished-at="2023-05-15T21:26:07 IST" duration-ms="78301">
+      <class name="Contacts_Tests.CreateNew_Contact_Test">
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:23 IST" name="Launch_Browser" finished-at="2023-05-15T21:25:27 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method is-config="true" signature="LoginTo_Application()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:27 IST" name="LoginTo_Application" finished-at="2023-05-15T21:25:29 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo_Application -->
+        <test-method signature="Tc_002_CreateContact_with_Organization()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:29 IST" name="Tc_002_CreateContact_with_Organization" finished-at="2023-05-15T21:25:53 IST" duration-ms="23960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002_CreateContact_with_Organization -->
+        <test-method is-config="true" signature="Logout_Application()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:53 IST" name="Logout_Application" finished-at="2023-05-15T21:25:54 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Application -->
+        <test-method is-config="true" signature="LoginTo_Application()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:54 IST" name="LoginTo_Application" finished-at="2023-05-15T21:25:56 IST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo_Application -->
+        <test-method signature="Tc_001_CreateConact()[pri:1, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:25:56 IST" name="Tc_001_CreateConact" finished-at="2023-05-15T21:26:05 IST" duration-ms="8670" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contacts link Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc_001_CreateConact -->
+        <test-method is-config="true" signature="Logout_Application()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:26:05 IST" name="Logout_Application" finished-at="2023-05-15T21:26:06 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Application -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Contacts_Tests.CreateNew_Contact_Test@4efbca5a]" started-at="2023-05-15T21:26:06 IST" name="ac" finished-at="2023-05-15T21:26:07 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Contacts_Tests.CreateNew_Contact_Test -->
+      <class name="Organization_Tests.CreateNew_Organization_Tests">
+        <test-method is-config="true" signature="bs()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:24:49 IST" name="bs" finished-at="2023-05-15T21:24:49 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:24:49 IST" name="bt" finished-at="2023-05-15T21:24:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="Launch_Browser()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:24:49 IST" name="Launch_Browser" finished-at="2023-05-15T21:24:56 IST" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method is-config="true" signature="LoginTo_Application()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:24:56 IST" name="LoginTo_Application" finished-at="2023-05-15T21:24:58 IST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo_Application -->
+        <test-method signature="Tc_003_CreateOrganization()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:24:58 IST" name="Tc_003_CreateOrganization" finished-at="2023-05-15T21:25:08 IST" duration-ms="10154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization Created Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc_003_CreateOrganization -->
+        <test-method is-config="true" signature="Logout_Application()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:25:08 IST" name="Logout_Application" finished-at="2023-05-15T21:25:09 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Application -->
+        <test-method is-config="true" signature="LoginTo_Application()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:25:09 IST" name="LoginTo_Application" finished-at="2023-05-15T21:25:11 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTo_Application -->
+        <test-method signature="Tc_004_DeleteOrganization()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:25:11 IST" name="Tc_004_DeleteOrganization" finished-at="2023-05-15T21:25:21 IST" duration-ms="9211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization Created Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Organization Deleted Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc_004_DeleteOrganization -->
+        <test-method is-config="true" signature="Logout_Application()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:25:21 IST" name="Logout_Application" finished-at="2023-05-15T21:25:22 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Application -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:25:22 IST" name="ac" finished-at="2023-05-15T21:25:23 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:26:07 IST" name="at" finished-at="2023-05-15T21:26:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:Organization_Tests.CreateNew_Organization_Tests@1623b78d]" started-at="2023-05-15T21:26:07 IST" name="as" finished-at="2023-05-15T21:26:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- Organization_Tests.CreateNew_Organization_Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
