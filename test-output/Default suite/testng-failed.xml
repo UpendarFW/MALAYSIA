@@ -3,10 +3,9 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Contacts_Tests.CreateNew_Contact_Test">
+      <class name="Contacts_Tests.Delete_Contact_Test">
         <methods>
           <include name="LoginTo_Application"/>
-          <include name="Tc_002_CreateContact_with_Organization"/>
           <include name="bs"/>
           <include name="at"/>
           <include name="Launch_Browser"/>
@@ -14,8 +13,9 @@
           <include name="bt"/>
           <include name="ac"/>
           <include name="Logout_Application"/>
+          <include name="delete_Contact"/>
         </methods>
-      </class> <!-- Contacts_Tests.CreateNew_Contact_Test -->
+      </class> <!-- Contacts_Tests.Delete_Contact_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

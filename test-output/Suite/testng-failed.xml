@@ -3,7 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Contacts_Tests.CreateNew_Contact_Test">
+      <class name="Organization_Tests.CreateNew_Organization_Tests">
         <methods>
           <include name="LoginTo_Application"/>
           <include name="bs"/>
@@ -12,10 +12,10 @@
           <include name="as"/>
           <include name="bt"/>
           <include name="ac"/>
-          <include name="Tc_001_CreateConact"/>
+          <include name="Tc_004_DeleteOrganization"/>
           <include name="Logout_Application"/>
         </methods>
-      </class> <!-- Contacts_Tests.CreateNew_Contact_Test -->
+      </class> <!-- Organization_Tests.CreateNew_Organization_Tests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

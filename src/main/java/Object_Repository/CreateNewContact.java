@@ -24,6 +24,7 @@ public class CreateNewContact {
 	
 	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
 	private WebElement saveBtn;
+
 	
 	public CreateNewContact(WebDriver driver) {
 		PageFactory.initElements(driver,this);
@@ -54,12 +55,6 @@ public class CreateNewContact {
 		
 		wu.window_Handle(driver,"Contacts&action");
 		
-		saveBtn.click();		
-		
-		
-		
-		
-		
-		
+		saveBtn.click();			
 	}
 }
