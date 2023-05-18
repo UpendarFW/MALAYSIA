@@ -105,7 +105,7 @@
         <version>3.1.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile> REadDataCmdLine.xml</suiteXmlFile>
+            <suiteXmlFile>REadDataCmdLine.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
